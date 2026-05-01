@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 public class Calculator {
     private static final Logger logger = LoggerFactory.getLogger(Calculator.class);
 
+    /**
+     * Adds two integers.
+     */
     public int add(int a, int b) {
         logger.info("Adding {} and {}", a, b);
         return a + b;
