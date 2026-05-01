@@ -10,6 +10,8 @@ public class Calculator {
      * Adds two integers.
      */
     public int add(int a, int b) {
+
+
         logger.info("Adding {} and {}", a, b);
         return a + b;
     }
